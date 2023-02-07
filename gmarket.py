@@ -9,7 +9,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-##가오몬 1060 PRO
+#가오몬 1060 PRO
 chrome_options = Options()
 driver = webdriver.Chrome('chromedriver.exe')
 driver.maximize_window()
