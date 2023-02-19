@@ -1487,7 +1487,7 @@ pre_scrollHeight = driver.execute_script("return document.body.scrollHeight") #�
 interval = 2 #sleep time
 
 while True:
-    ##스크롤을 가장 아래로 내림
+    #스크롤을 가장 아래로 내림
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
     time.sleep(interval)    #페이지 로딩 대기
     curr_scrollHeight = driver.execute_script("return document.body.scrollHeight")   #현재 높이
